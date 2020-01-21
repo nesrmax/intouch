@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Screen.FavouriteScreen"
+    tools:showIn="@layout/app_bar_facourite_news">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/favList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="1dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

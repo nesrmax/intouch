@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:scrollbars="vertical">
+
+    <ImageButton
+        android:id="@+id/widgetupdate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ic_update_black_24dp"
+        android:contentDescription="@string/update_widget"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widgetupdate"
+        android:layout_margin="3dp"
+        android:fontFamily="serif"
+        android:padding="3dp"
+        android:textColor="#ffffff"
+        android:textDirection="anyRtl"
+        android:textIsSelectable="true"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <ImageView
+        android:id="@+id/imgnews"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/widget_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/newsposter"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgnews"
+        android:layout_margin="3dp"
+        android:fontFamily="serif"
+        android:padding="3dp"
+        android:textColor="#ffdcc6"
+        android:textDirection="anyRtl"
+        android:textIsSelectable="true"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        tools:targetApi="jelly_bean_mr1" />
+
+
+</RelativeLayout>

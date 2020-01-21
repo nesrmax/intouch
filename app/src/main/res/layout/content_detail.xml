@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Screen.DetailScreen"
+    tools:showIn="@layout/appbar_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/content_detail_marg_top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/content_detail_image_hight"
+            android:contentDescription="@string/newsposter"
+            android:scaleType="fitXY" />
+
+        <CheckBox
+            android:id="@+id/favorite_checkbox"
+            style="?android:attr/starStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/color4" />
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/text1"
+            android:textColor="@color/color5"
+            android:textDirection="anyRtl"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold"
+            tools:targetApi="jelly_bean_mr1" />
+
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="serif"
+            android:padding="3dp"
+            android:textColor="#ffffff"
+            android:textDirection="anyRtl"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            tools:targetApi="jelly_bean_mr1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="2dp"
+            android:background="@color/color4" />
+
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:padding="3dp"
+            android:textColor="#ffdcc6"
+            android:textDirection="anyRtl"
+            android:textIsSelectable="true"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            tools:targetApi="jelly_bean_mr1" />
+
+
+        <ImageButton
+            android:id="@+id/extend"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_http_black_24dp"
+            android:contentDescription="@string/go_to_source"
+            android:onClick="extend"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/click_to_browse"
+            android:textColor="@color/color2" />
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

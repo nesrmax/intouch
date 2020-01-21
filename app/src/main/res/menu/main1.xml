@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite_Screen_button"
+        android:checkable="true"
+        android:checked="false"
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        android:title="@string/favorite"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/country_dialog_option"
+        android:title="@string/counrty"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/catogery_dialog_option"
+        android:title="@string/category"
+        app:showAsAction="never" />
+
+
+</menu>

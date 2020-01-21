@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">In Touch</string>
+    <string name="detailscreen">In Touch</string>
+
+    <string name="newsposter">poster</string>
+
+
+    <string name="counrties">Counrties</string>
+    <string name="counrty">Counrty</string>
+    <string name="favorite">Favourite</string>
+    <string name="category">Category</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="sports">Sports</string>
+    <string name="technology">Technology</string>
+    <string name="go_to_source">go to source</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="share">Click To Share</string>
+
+    <string name="add_to_favorite">Add To Favourit</string>
+    <string name="removefromfavorite">Remove from Favorite List</string>
+
+
+    <string name="baseurl">https://newsapi.org/v2/</string>
+    <string name="Key">5c99528e588b47ae9a5077769dfd9dcb</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="update_widget">Update</string>
+
+    <string name="conected">connected</string>
+    <string name="notconnected">not connected</string>
+
+    <string name="postercontainer">container of poster</string>
+
+
+    <string name="click_to_browse">Click To Browse</string>
+    <string name="SelectACategtry">Select A Categtry</string>
+
+
+    <string name="There_is_no_favorite_movies_to_show">There is no favorite movies to show!</string>
+
+    <string name="trans_poster">Tposter</string>
+    <string name="trans_text">TText</string>
+
+
+
+
+</resources>
+
+
